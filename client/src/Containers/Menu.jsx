@@ -5,7 +5,7 @@ import './Menu.css'
 
 export default function Menu(){
     return (
-        <div className="pa3 br3 shadow-5 menu w-25 bg-light-gray">
+        <div className="pa3 br3 shadow-5 menu w-25 bg-washed-blue">
             <img src={logo} alt='Visualize'></img>
             <NavLink
                 to="/dashboard"
