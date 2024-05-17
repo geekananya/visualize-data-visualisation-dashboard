@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant&display=swap');
+
+#root{
+  font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.std-font-color{
+  color: #1a4e6c;
+}
+.std-font-color-light{
+  color:#c9ffff;
+}
+.std-bg-color{
+  background-color: #ffffff;
+}
+.button{
+  background: aliceblue;
+  color: #1a4e6c;
+  border: 1px solid #1a4e6c;
+  border-radius: 100px;
+  cursor: pointer;
+  font-family: 'Ysabeau Infant', sans-serif;
+  font-weight: bolder;
+  font-size: 1rem;
+  transition-duration: 0.5s;
+}
+.button:hover{
+  background: #1a4e6c;
+  color: aliceblue;
+}
+.bold{
+  font-weight: bold;
+}
+
+.positive{
+  color: rgb(40, 194, 26);
+}
+.negative{
+  color: red;
+}
