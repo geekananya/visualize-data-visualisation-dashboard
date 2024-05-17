@@ -39,4 +39,4 @@ app.listen(PORT, ()=>{
 
 
 
-//# mongoimport -d Visualize -c Data --jsonArray --uri mongodb+srv://ananya:mongoananya@cluster0.p9fpv3w.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp D:\WEBD\Assignments\Data Visualisation Dashboard\server\Models\jsondata.json
+//# mongoimport -d Visualize -c Data --jsonArray --uri MONGODB_URI
