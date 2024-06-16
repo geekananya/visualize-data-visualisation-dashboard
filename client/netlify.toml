@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/api"
+  to = "https://visualize-data-visualisation-dashboard.onrender.com/:splat"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
