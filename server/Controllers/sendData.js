@@ -48,7 +48,7 @@ const filteredData = async (req, res, db) => {
       // const d = new Date(req.query.date_added);
       // console.log(d)
         const result = await getData(db, query);
-        console.log("got the data")
+        // console.log("got the data")
         res.json(result);
     }catch(e){
       console.log(e);

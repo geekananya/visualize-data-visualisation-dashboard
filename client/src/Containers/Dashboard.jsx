@@ -25,11 +25,15 @@ export default function Dashboard(){
     }, [filters]);
     
     const fetchData = async (query) => {
-        const response = await fetch(`/api/data?${query}`);
-        const jsonData = await response.json();
-        const correctedData = handleMissingData(jsonData);
-        setData(correctedData);
+        try{
+            const response = await fetch(`/api/data?${query}`);
+            const jsonData = await response.json();
+            const correctedData = handleMissingData(jsonData);
+            setData(correctedData);
         // setFilteredData(correctedData); // Initialize filteredData with all data
+        }catch(e){
+            console.log("Error fetching",e);
+        }
     };
 
     const applyFilters = () =>{

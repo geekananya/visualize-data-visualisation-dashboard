@@ -4,7 +4,7 @@ export async function getData(db, filter){
   //   console.log("query", filter)
     try {
         const documents = await db.collection("Data").find(filter).toArray();
-        console.log("got db data")
+        // console.log("got db data")
         return documents;
     } catch (error) {
         console.error('Error:', error);

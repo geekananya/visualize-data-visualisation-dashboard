@@ -7,7 +7,8 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:8080/',
+        target: 'https://visualize-data-visualisation-dashboard.onrender.com',
+        secure: false,
       },
     },
   },

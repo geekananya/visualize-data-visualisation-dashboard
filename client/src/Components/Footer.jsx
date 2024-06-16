@@ -11,13 +11,13 @@ export default function Footer(){
             <div className="social-links flex black">
                 <div className='center'>
                     <a rel="noreferrer" href="mailto:mail.ananyaverma23@gmail.com" target="_blank">
-                        <FontAwesomeIcon icon={faEnvelope} size="2x" color="black" className='grow'/>
+                        <FontAwesomeIcon icon={faEnvelope} size="2x" color="peru" className='grow'/>
                     </a>
                     <a rel="noreferrer" href="https://www.github.com/geekananya" target="_blank">
-                        <FontAwesomeIcon icon={faGithub} size="2x" color="black" className='ml3 mr3 grow'/>
+                        <FontAwesomeIcon icon={faGithub} size="2x" color="purple" className='ml3 mr3 grow'/>
                     </a>
                     <a rel="noreferrer" href="https://www.linkedin.com/in/geekananya" target="_blank">
-                        <FontAwesomeIcon icon={faLinkedin} size="2x" color="black" className='grow'/>
+                        <FontAwesomeIcon icon={faLinkedin} size="2x" color="navy" className='grow'/>
                     </a>
                 </div>
             </div>
