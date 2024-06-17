@@ -15,6 +15,6 @@ To run this project locally, run the following commands:
 2. npm install
 3. npm run dev
 
-![Website-Image](website-image.jpg?raw=true "Visualize")
+![Website-Image](website-video.mp4?raw=true "Visualize")
 
 Thank you!
