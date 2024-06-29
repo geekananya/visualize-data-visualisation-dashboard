@@ -26,7 +26,7 @@ export default function Dashboard(){
     
     const fetchData = async (query) => {
         try{
-            const response = await fetch(`/api/data?${query}`);
+            const response = await fetch(`https://visualize-data-visualisation-dashboard.onrender.com/api/data?${query}`);
             const jsonData = await response.json();
             const correctedData = handleMissingData(jsonData);
             setData(correctedData);

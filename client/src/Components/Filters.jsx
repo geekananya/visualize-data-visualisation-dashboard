@@ -25,7 +25,7 @@ const Filter = (props) => {
   }, [])
 
   const fetchValues = async () =>{
-    const res = await fetch('/api/data/distinct');
+    const res = await fetch('https://visualize-data-visualisation-dashboard.onrender.com/api/data/distinct');
     const values = await res.json();
     // console.log(values.source);
     setAllValues(values);
